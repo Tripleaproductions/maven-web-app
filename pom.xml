@@ -89,20 +89,19 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>
-		
+		</dependency>	
 	</dependencies>	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://18.188.5.91:8081/repository/Ebay-bts-releases/</url>
+	      <url>http://18.118.197.206:8081/repository/Ebay-bts-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.188.5.91:8081/repository/Ebay-bts-snapshot/</url>
+	      <url>http://18.118.197.206:8081/repository/Ebay-bts-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
